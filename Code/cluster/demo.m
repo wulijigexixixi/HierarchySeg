@@ -22,4 +22,3 @@ for m = 1 :1%LengthFiles
     end
 end
 [ResultImg] = MergeRegion(Img,feature,ctrs,init_lable);
-diameter = STATS.EquivDiameter ;%等价直径：与区域具有相同面积的圆的直径 
